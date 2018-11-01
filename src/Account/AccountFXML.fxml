@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="848.0" prefWidth="567.0" stylesheets="@../sample/dark_theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Account.AccountController">
+   <children>
+      <Pane layoutX="32.0" layoutY="313.0" prefHeight="357.0" prefWidth="482.0">
+         <children>
+            <Button fx:id="four" layoutX="27.0" layoutY="94.0" mnemonicParsing="false" onAction="#ClickFour" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="4">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="five" layoutX="114.0" layoutY="94.0" mnemonicParsing="false" onAction="#ClickFive" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="5">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="six" layoutX="201.0" layoutY="94.0" mnemonicParsing="false" onAction="#ClickSix" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="6">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="one" layoutX="27.0" layoutY="14.0" mnemonicParsing="false" onAction="#ClickOne" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="1">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="two" layoutX="114.0" layoutY="14.0" mnemonicParsing="false" onAction="#Clicktwo" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="2">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="three" layoutX="201.0" layoutY="16.0" mnemonicParsing="false" onAction="#ClickThree" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="3">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="seven" layoutX="27.0" layoutY="178.0" mnemonicParsing="false" onAction="#ClickSeven" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="7">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="eight" layoutX="114.0" layoutY="178.0" mnemonicParsing="false" onAction="#ClickEight" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="8">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="nine" layoutX="201.0" layoutY="176.0" mnemonicParsing="false" onAction="#ClickNine" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="9">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button layoutX="27.0" layoutY="262.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="zero" layoutX="114.0" layoutY="262.0" mnemonicParsing="false" onAction="#ClickZero" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="262.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="enter" layoutX="287.0" layoutY="94.0" mnemonicParsing="false" onAction="#signin" prefHeight="66.0" prefWidth="179.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="ENTER">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" layoutX="287.0" layoutY="14.0" mnemonicParsing="false" onAction="#ClearEverything" prefHeight="66.0" prefWidth="179.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="CLEAR">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="287.0" layoutY="176.0" mnemonicParsing="false" onAction="#ExitATM" prefHeight="66.0" prefWidth="179.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="EXIT">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="287.0" layoutY="262.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="179.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+            </Button>
+            <Label layoutX="306.0" layoutY="21.0" prefHeight="0.0" prefWidth="135.0" style="-fx-background-color: #F6EE18; -fx-border-radius: 20px; -fx-background-radius: 20px;">
+               <font>
+                  <Font size="6.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets left="10.0" right="10.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="313.0" layoutY="102.0" prefHeight="0.0" prefWidth="135.0" style="-fx-background-color: #48C762; -fx-border-radius: 20px; -fx-background-radius: 20px;">
+               <font>
+                  <Font size="6.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets left="10.0" right="10.0" />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="313.0" layoutY="184.0" prefHeight="0.0" prefWidth="135.0" style="-fx-background-radius: 20px; -fx-background-color: #B62240;">
+               <font>
+                  <Font size="6.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets left="10.0" right="10.0" />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="pintext" layoutX="124.0" layoutY="145.0" prefHeight="66.0" prefWidth="369.0" promptText="Enter your pin " style="-fx-background-color: F2E9E2; -fx-background-radius: 20px;">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIconView glyphName="LOCK" glyphStyle="#B62240" layoutX="54.0" layoutY="193.0" size="45" style="-fx-fill: F3DEE2;" />
+      <Label alignment="TOP_CENTER" layoutX="83.0" layoutY="32.0" prefHeight="66.0" prefWidth="451.0" text="Welcome to ATM" textAlignment="CENTER" textFill="#dbd0d0" underline="true">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fill="#c9b9b9" glyphName="BANK" layoutX="17.0" layoutY="89.0" size="60" wrappingWidth="73.42856979370117" />
+      <Button fx:id="instagram" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="685.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="266.0" style="-fx-background-radius: 10px; -fx-background-color: #f09433;" text="  FOLLOW US ON INSTAGRAM">
+         <opaqueInsets>
+            <Insets left="20.0" />
+         </opaqueInsets>
+      </Button>
+      <FontAwesomeIconView fill="#f2ebeb" glyphName="INSTAGRAM" layoutX="57.0" layoutY="719.0" size="25" />
+      <Button fx:id="facebook" layoutX="43.0" layoutY="758.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="266.0" style="-fx-background-radius: 10px; -fx-background-color: #0077B5;" text="LIKE US ON FACBOOK" />
+      <FontAwesomeIconView fill="#f2ebeb" glyphName="FACEBOOK" layoutX="61.0" layoutY="792.0" size="25" />
+      <Label fx:id="wrongpin" layoutX="198.0" layoutY="229.0" prefHeight="66.0" prefWidth="240.0" textFill="#ff6d6d" underline="true" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

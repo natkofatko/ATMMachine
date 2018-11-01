@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+
+
+<AnchorPane depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="606.0" stylesheets="@dark_theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FirstPageController">
+   <children>
+      <Pane prefHeight="462.0" prefWidth="606.0">
+         <Label fx:id="textMessage" layoutX="173.0" layoutY="14.0" prefHeight="74.0" prefWidth="246.0" />
+         <Button fx:id="exit" layoutX="107.0" layoutY="378.0" mnemonicParsing="false" onAction="#Exit" prefHeight="31.0" prefWidth="107.0" style="-fx-text-fill: C3BE37;" text="Exit">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+            <Label layoutX="82.0" layoutY="69.0" prefHeight="98.0" prefWidth="464.0" style="-fx-text-fill: C3BE37;" text="Welcome to ATM" textFill="#dd7a7a">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            <effect>
+               <Blend>
+                  <topInput>
+                     <Blend />
+                  </topInput>
+               </Blend>
+            </effect>
+            </Label>
+            <Label layoutX="82.0" layoutY="175.0" prefHeight="27.0" prefWidth="94.0" style="-fx-text-fill: C3BE37; -fx-background-color: E8E7DB;" styleClass="lable" text="PIN NO">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="221.0" prefHeight="27.0" prefWidth="94.0" style="-fx-text-fill: C3BE37; -fx-background-color: E8E7DB;" styleClass="lable" text="Card NO">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="pinno" accessibleRole="CHECK_BOX" layoutX="203.0" layoutY="173.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" promptText="pin number" style="-fx-text-fill: C3BE37;">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow blurType="GAUSSIAN" color="#81a456" />
+                     </bumpInput>
+                  <light>
+
+                  </light>
+                  </Lighting>
+               </effect>
+            <cursor>
+               <Cursor fx:constant="DEFAULT" />
+            </cursor>
+            </TextField>
+            <TextField fx:id="cardno" layoutX="203.0" layoutY="219.0" style="-fx-text-fill: C3BE37;" text="card number" />
+         <Button fx:id="XXXX" layoutX="107.0" layoutY="300.0" mnemonicParsing="false" onAction="#signin" prefHeight="31.0" prefWidth="107.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-text-fill: C3BE37;" text="Sign in">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="signup" layoutX="314.0" layoutY="300.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="107.0" style="-fx-text-fill: C3BE37;" text="Sign up">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <FontAwesomeIconView glyphName="LOCK" glyphStyle="#FF0000" layoutX="129.0" layoutY="73.0" size="45" />
+
+
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <MotionBlur />
+               </bumpInput>
+               <light>
+
+               </light>
+            </Lighting>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Pane>
+   </children>
+</AnchorPane>
