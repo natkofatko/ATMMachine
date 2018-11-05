@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="848.0" prefWidth="567.0" stylesheets="@../sample/dark_theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Account.AccountController">
    <children>
-      <Pane layoutX="32.0" layoutY="313.0" prefHeight="357.0" prefWidth="482.0">
+      <Pane layoutX="43.0" layoutY="305.0" prefHeight="357.0" prefWidth="482.0">
          <children>
             <Button fx:id="four" layoutX="27.0" layoutY="94.0" mnemonicParsing="false" onAction="#ClickFour" prefHeight="66.0" prefWidth="67.0" style="-fx-background-radius: 20px; -fx-background-color: F2E9E2;" text="4">
                <opaqueInsets>

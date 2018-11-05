@@ -1,0 +1,37 @@
+/*
+declare global variables
+*/
+
+*{
+-fx-primary : #2A2E37;
+-fx-secondary:#FFFF8D
+-fx-primaryText: #C3BE37;
+-fx-red:#FF0000;
+}
+
+.root
+{
+-fx-background-color: -fx-primary;
+}
+.glyph-icon{
+-fx-fill: -fx-primaryText;
+}
+
+.button{
+-fx-text-fill: -fx-primaryText;
+}
+
+
+.login-button{
+-fx-border-color: -fx-secondary;
+-fx-border-radius:20xp;
+-fx-background-radius:20xp;
+
+}
+.lable
+{
+-fx-border-color: -fx-red;
+-fx-background-color: #FFA500;
+
+}
+

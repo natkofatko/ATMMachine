@@ -8,7 +8,7 @@ public class dbConnection {
 
     private static final String PINNUMBER = "dbPIN";
  private static final String CONN = "jdbc:mySQL://localhost/login";
- private static final String SQCONN = "jdbc:sqlite:pinnumber.sqlite";
+ private static final String SQCONN = "jdbc:sqlite:school.sqlite";
 
  public static Connection getConnection()throws SQLException {
      try {

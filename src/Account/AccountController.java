@@ -20,8 +20,13 @@ import java.util.ResourceBundle;
 
 public class AccountController implements Initializable{
 
+    LoginModel login= new LoginModel();
     public void initialize(URL url, ResourceBundle rb)
     {
+        if(login.isDatabaseConnected())
+        {
+            this.wrongpin.setText("ConnectedToDatabase");
+        }
     }
     @FXML
     private Button one;
@@ -160,7 +165,7 @@ private Label wrongpin;
             userStage.setTitle("Welcome to ATM");
             userStage.show();
             userStage.setResizable(false);
-
+System.out.print("Test"); 
 
         }
         else {
